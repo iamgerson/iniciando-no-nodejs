@@ -1,0 +1,27 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+  "title": "Deno",
+  "description": "Substituição do Node",
+  "duration": 360
+}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT  http://localhost:3333/videos/80c46685-f619-4f4f-9f12-b09f02182f64
+Content-Type: application/json
+
+{
+  "title": "NLW",
+  "description": "Ultima NLW do ano",
+  "duration": 360
+}
+
+###
+
+DELETE http://localhost:3333/videos/b92029f1-c0bb-48d9-84ce-22b2b5b57381
